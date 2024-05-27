@@ -1,0 +1,31 @@
+{
+  "name": "nx-remotecache-tencentcos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "watch": "npx tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Bacra/nx-remotecache-tencentcos.git"
+  },
+  "keywords": [
+    "nx",
+    "remote",
+    "cache",
+    "remotecache",
+    "tencent",
+    "cos",
+    "object storage",
+    "storage"
+  ],
+  "author": "Bacra Woo <bacra.woo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nx-remotecache-custom": "^19.0.0",
+    "cos-nodejs-sdk-v5": "^2.14.0"
+  }
+}
